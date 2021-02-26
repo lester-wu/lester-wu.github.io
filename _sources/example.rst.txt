@@ -1,0 +1,29 @@
+example package
+===============
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   example.docs
+
+Submodules
+----------
+
+example.google module
+---------------------
+
+.. automodule:: example.google
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: example
+   :members:
+   :undoc-members:
+   :show-inheritance:

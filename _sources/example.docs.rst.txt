@@ -1,0 +1,10 @@
+example.docs package
+====================
+
+Module contents
+---------------
+
+.. automodule:: example.docs
+   :members:
+   :undoc-members:
+   :show-inheritance:
