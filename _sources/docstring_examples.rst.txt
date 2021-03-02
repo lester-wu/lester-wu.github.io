@@ -1,0 +1,21 @@
+docstring\_examples package
+===========================
+
+Submodules
+----------
+
+docstring\_examples.google module
+---------------------------------
+
+.. automodule:: docstring_examples.google
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: docstring_examples
+   :members:
+   :undoc-members:
+   :show-inheritance:

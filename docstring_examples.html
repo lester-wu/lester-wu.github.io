@@ -1,0 +1,371 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>docstring_examples package &#8212; Hail 0.0.1 documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-customized.css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to docstring_examples’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="docstring-examples-package">
+<h1>docstring_examples package<a class="headerlink" href="#docstring-examples-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-docstring_examples.google">
+<span id="docstring-examples-google-module"></span><h2>docstring_examples.google module<a class="headerlink" href="#module-docstring_examples.google" title="Permalink to this headline">¶</a></h2>
+<p>Example Google style docstrings.</p>
+<p>This module demonstrates documentation as specified by the
+<a class="reference external" href="http://google.github.io/styleguide/pyguide.html">Google Python Style Guide</a>.
+Docstrings may extend over multiple lines. Sections are created
+with a section header and a colon followed by a block of indented text.</p>
+<p class="rubric">Example</p>
+<p>There are multiple ways to use <cite>Example</cite> or <cite>Examples</cite>, in this case we use
+a single colon <cite>:</cite> allowing us to use text.</p>
+<p>If we wish to display a codeblock you may use double-colon <cite>::</cite></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Just</span> <span class="n">like</span> <span class="n">this</span>
+</pre></div>
+</div>
+<p>Example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">my_string</span> <span class="o">=</span> <span class="s2">&quot;Alternatively you can just use a codeblock with double-colon&quot;</span>
+<span class="n">string2</span> <span class="o">=</span> <span class="s2">&quot;This is just an example that will remain unexecuted&quot;</span>
+</pre></div>
+</div>
+<p>Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">foo</span> <span class="o">=</span> <span class="s2">&quot;You can add chevrons to enable doctest on your codeblock&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">foo</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)[::</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+<span class="go">codeblock your on doctest enable to chevrons addcan You</span>
+</pre></div>
+</div>
+<p>Section breaks are created by resuming unindented text. Section breaks
+are also implicitly created anytime a new section starts.</p>
+<dl class="py class">
+<dt id="docstring_examples.google.ExampleClass">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">docstring_examples.google.</span></code><code class="sig-name descname"><span class="pre">ExampleClass</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">param1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">param2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">param3</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/docstring_examples/google.html#ExampleClass"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#docstring_examples.google.ExampleClass" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>The summary line for a class docstring should fit on one line.</p>
+<p>Attributes may be documented inline with the attribute’s declaration.</p>
+<p>If the <cite>__init__</cite> method contains any notable behaviour it should be
+documented here.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p><strong>ValueError</strong> – raise on instantiation if input out of bound</p>
+</dd>
+<dt class="field-even">Parameters</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>param1</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – </p></li>
+<li><p><strong>param2</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – </p></li>
+<li><p><strong>param3</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – </p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt id="docstring_examples.google.ExampleClass.CLASS_LEVEL_VARS">
+<code class="sig-name descname"><span class="pre">CLASS_LEVEL_VARS</span></code><em class="property"><span class="pre">:</span> <span class="pre">str</span></em><em class="property"> <span class="pre">=</span> <span class="pre">'str'</span></em><a class="headerlink" href="#docstring_examples.google.ExampleClass.CLASS_LEVEL_VARS" title="Permalink to this definition">¶</a></dt>
+<dd><p>The class attribute should be documented here.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="docstring_examples.google.ExampleClass.example_method">
+<code class="sig-name descname"><span class="pre">example_method</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">param1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">param2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/docstring_examples/google.html#ExampleClass.example_method"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#docstring_examples.google.ExampleClass.example_method" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class methods are similar to regular functions.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>param1</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – </p></li>
+<li><p><strong>param2</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="docstring_examples.google.ExampleClass.readonly_property">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">readonly_property</span></code><a class="headerlink" href="#docstring_examples.google.ExampleClass.readonly_property" title="Permalink to this definition">¶</a></dt>
+<dd><p>Properties should be documented in their getter method.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="docstring_examples.google.ExampleClass.readwrite_property">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">readwrite_property</span></code><a class="headerlink" href="#docstring_examples.google.ExampleClass.readwrite_property" title="Permalink to this definition">¶</a></dt>
+<dd><p>Properties with both a getter and setter
+should only be documented in their getter method.</p>
+<p>If the setter method contains notable behavior, it should be
+documented here.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">typing.List</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py exception">
+<dt id="docstring_examples.google.ExampleError">
+<em class="property"><span class="pre">exception</span> </em><code class="sig-prename descclassname"><span class="pre">docstring_examples.google.</span></code><code class="sig-name descname"><span class="pre">ExampleError</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msg</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">code</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/docstring_examples/google.html#ExampleError"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#docstring_examples.google.ExampleError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+<p>Exceptions are documented in the same way as classes.</p>
+<p>If the <cite>__init__</cite> method contains any notable behaviour it should be
+documented here.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>msg</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – </p></li>
+<li><p><strong>code</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – </p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="docstring_examples.google.example_of_keywords">
+<code class="sig-prename descclassname"><span class="pre">docstring_examples.google.</span></code><code class="sig-name descname"><span class="pre">example_of_keywords</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/docstring_examples/google.html#example_of_keywords"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#docstring_examples.google.example_of_keywords" title="Permalink to this definition">¶</a></dt>
+<dd><p>Napoleon keyword.</p>
+<p>There are a many keywords provided by <cite>napoleon</cite> which inform rendereing of
+the documentation. Each section will be rendered and highlighted
+differently.</p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>When something really bad could happen!</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>When something could go wrong if you aren’t careful.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When you want to bring something to attention, but it’s not super
+important.</p>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Make sure to read this, it contains key information.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Quick hints to help the struggling developer.</p>
+</div>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>Related subjects to help build context.</p>
+</div>
+<p class="rubric">Example</p>
+<p>How to use the thing. Include a codeblock:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Here is some code&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Or even a doctset:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;And now it&#39;s running&quot;</span><span class="p">)</span>
+<span class="go">And now it&#39;s running</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>AttributeError</strong> – The <cite>Raises</cite> section is a list of all exceptions
+    that are relevant to the interface.</p></li>
+<li><p><strong>ValueError</strong> – If <cite>param2</cite> is equal to <cite>param1</cite>.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="docstring_examples.google.example_of_rst">
+<code class="sig-prename descclassname"><span class="pre">docstring_examples.google.</span></code><code class="sig-name descname"><span class="pre">example_of_rst</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/docstring_examples/google.html#example_of_rst"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#docstring_examples.google.example_of_rst" title="Permalink to this definition">¶</a></dt>
+<dd><p>Common RestructureText syntax.</p>
+<p>Below you will find some examples of RST, these will be rendered similarly
+to markdown and display nicely in the HTML documentation.</p>
+<p><em>italic</em>
+<strong>bold</strong>
+<a class="reference external" href="www.python.org">python</a>
+<a class="reference external" href="https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html">RST Syntax Page</a></p>
+<ul class="simple">
+<li><p>This is a bulleted list.</p></li>
+<li><p>It has two items, the second
+item uses two lines. (note the indentation)</p></li>
+</ul>
+<ol class="arabic simple">
+<li><p>This is a numbered list.</p></li>
+<li><p>It has two items too.</p></li>
+<li><p>This is a numbered list.</p></li>
+<li><p>It has two items too.</p></li>
+</ol>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 34%" />
+<col style="width: 34%" />
+<col style="width: 31%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Header 1</p></th>
+<th class="head"><p>Header 2</p></th>
+<th class="head"><p>Header 3</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>body row 1</p></td>
+<td><p>column 2</p></td>
+<td><p>column 3</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="docstring_examples.google.module_level_function">
+<code class="sig-prename descclassname"><span class="pre">docstring_examples.google.</span></code><code class="sig-name descname"><span class="pre">module_level_function</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">param1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">param2</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/docstring_examples/google.html#module_level_function"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#docstring_examples.google.module_level_function" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is an example of a module level function.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>AttributeError</strong> – The <cite>Raises</cite> section is a list of all exceptions
+    that are relevant to the interface.</p></li>
+<li><p><strong>ValueError</strong> – If <cite>param2</cite> is equal to <cite>param1</cite>.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Parameters</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>param1</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – </p></li>
+<li><p><strong>param2</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">typing.Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code>]) – </p></li>
+<li><p><strong>args</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code>) – </p></li>
+<li><p><strong>kwargs</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code>) – </p></li>
+</ul>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt id="docstring_examples.google.public_module_level_variable">
+<code class="sig-prename descclassname"><span class="pre">docstring_examples.google.</span></code><code class="sig-name descname"><span class="pre">public_module_level_variable</span></code><em class="property"><span class="pre">:</span> <span class="pre">int</span></em><em class="property"> <span class="pre">=</span> <span class="pre">98765</span></em><a class="headerlink" href="#docstring_examples.google.public_module_level_variable" title="Permalink to this definition">¶</a></dt>
+<dd><p>Module level variable documented inline.</p>
+<p>The docstring may span multiple lines.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-docstring_examples">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-docstring_examples" title="Permalink to this headline">¶</a></h2>
+<p>Single line description of purpose of the package.</p>
+<p>Add more detailed explanation if needed.</p>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Hail</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">docstring_examples package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-docstring_examples.google">docstring_examples.google module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-docstring_examples">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to docstring_examples’s documentation!</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, yrcloud.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.5.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/docstring_examples.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
